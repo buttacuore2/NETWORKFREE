@@ -2,8 +2,8 @@
 # =========================================
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition 1.0
-# Auther  : NETWORK TWEAKER 
-# (C) Copyright 2023
+# Auther  : NETWORK FREE 
+# (C) Copyright 2025
 # =========================================
 clear
 echo Installing Websocket-SSH Python
@@ -13,7 +13,7 @@ sleep 2
 cd
 
 # // GIT USER
-GitUser="NETWORKTWEAKER"
+GitUser="NETWORKTFREE"
 
 # // SYSTEM WEBSOCKET HTTPS 443
 cat <<EOF> /etc/systemd/system/ws-https.service

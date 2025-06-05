@@ -1,9 +1,9 @@
 # =========================================
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition 1.0
-# Auther  : NETWORK TWEAKER 
-# CYBER NOVA & EREN YEAGER 
-# (C) Copyright 2023
+# Auther  : NETWORK FREE 
+# ABDERRAHIM BALLA
+# (C) Copyright 2025
 # =========================================
 # pewarna hidup
 BGreen='\e[1;32m'
@@ -20,9 +20,9 @@ rm -rf /root/nsdomain
 rm nsdomain
 
 #input nameserver manual to cloudflare
-#read -rp "Masukkan domain: " -e domain
+#read -rp "Enter the domain: " -e domain
 
-read -rp "Masukkan Subdomain Yang Dipakai Host Sekarang: " -e sub
+read -rp "Enter the Subdomain the Host Is Currently Using: " -e sub
 SUB_DOMAIN=${sub}
 NS_DOMAIN=ns-${SUB_DOMAIN}
 echo $NS_DOMAIN > /root/nsdomain
@@ -138,6 +138,6 @@ systemctl restart client-sldns
 systemctl restart server-sldns
 
 echo -e "\e[1;32m Success.. \e[0m"
-echo "Silahkan Pointing Type NS $nameserver Dengan Target $domen"
+echo "Please Pointing Type NS $nameserver With Target $domen"
 sleep 10
 

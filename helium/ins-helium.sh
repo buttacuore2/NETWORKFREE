@@ -2,9 +2,9 @@
 # =========================================
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition 1.0
-# Auther  : NETWORK TWEAKER
-# Kuota Habisss
-# (C) Copyright 2023
+# Auther  : NETWORK FREE
+# ABDERRAHIM BALLA
+# (C) Copyright 2025
 # =========================================
 # pewarna hidup
 BGreen='\e[1;32m'

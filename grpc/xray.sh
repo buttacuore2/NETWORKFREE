@@ -38,8 +38,8 @@ chmod +x /usr/local/bin/xray
 # Make Folder XRay
 mkdir -p /var/log/xray/
 #
-wget -q -O /usr/local/bin/geosite.dat "https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/grpc/menu/geosite.dat"
-wget -q -O /usr/local/bin/geoip.dat "https://raw.githubusercontent.com/NETWORKTWEAKER/AUTO-SCRIPT/AutoScriptXray/grpc/ma/geoip.dat"
+wget -q -O /usr/local/bin/geosite.dat "https://github.com/buttacuore2/NETWORKFREE/raw/refs/heads/main/geosite.dat"
+wget -q -O /usr/local/bin/geoip.dat "https://github.com/buttacuore2/NETWORKFREE/raw/refs/heads/main/geoip.dat"
 
 #
 cat > /etc/xray/vmessgrpc.json << END

@@ -1,8 +1,6 @@
 #!/bin/bash
-# NETWORK TWEAKER 
-# CYBER NOVA 
-# EREN YEAGER 
-# fn ki maa ka bhosda 
+# NETWORK FREE 
+# ABDERRAHIM BALLA
 GREEN='\033[0;32m'
 PURPLE='\033[0;35m'
 CYAN='\033[0;36m'
@@ -198,13 +196,13 @@ kernelku=$(uname -r)
 
 # DNS PATCH
 #tipeos2=$(uname -m)
-Name=$"NETWORK TWEAKER"
+Name=$"NETWORK FREE"
 Exp=$"NONE"
 # GETTING DOMAIN NAME
 Domen="$(cat /etc/xray/domain)"
 echo -e ""
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m                NT SYSTEM INFORMATION               \e[0m"
+echo -e "\e[1;34m                NF SYSTEM INFORMATION               \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e "\e[1;32m Hostname  \e[0m: $HOSTNAME"
 echo -e "\e[1;32m OS Name   \e[0m: $Tipe"
@@ -212,13 +210,13 @@ echo -e "\e[1;32m Total RAM \e[0m: ${totalram} MB"
 echo -e "\e[1;32m Public IP \e[0m: $MYIP"
 echo -e "\e[1;32m Domain    \e[0m: $Domen"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m             NT SUBSCRIPTION INFORMATION            \e[0m"
+echo -e "\e[1;34m             NF SUBSCRIPTION INFORMATION            \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e "\e[1;32m Client Name \e[0m: $Name"
 echo -e "\e[1;32m Exp Script  \e[0m: $Exp"
 echo -e "\e[1;32m Version     \e[0m: 1.0"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m               NT SERVICE INFORMATION               \e[0m"
+echo -e "\e[1;34m               NF SERVICE INFORMATION               \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e "\e[1;32m SSH / TUN            \e[0m: $status_ssh"
 echo -e "\e[1;32m Dropbear             \e[0m: $status_beruangjatuh"
@@ -235,7 +233,7 @@ echo -e "\e[1;32m Shadowsocks          \e[0m: $status_shadowsocks"
 echo -e "\e[1;32m Websocket TLS        \e[0m: $swstls"
 echo -e "\e[1;32m Websocket None TLS   \e[0m: $swstls"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m                     t.me/networktweakerop                   \e[0m"
+echo -e "\e[1;34m                     t.me/buttacuore                   \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu"

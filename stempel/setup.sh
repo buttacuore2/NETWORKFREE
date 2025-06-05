@@ -119,7 +119,7 @@ mkdir -p /var/lib/ >/dev/null 2>&1
 echo "IP=" >> /var/lib/ipvps.conf
 echo ""
 clear
-echo -e "$BBlue                          NT SETUP SUBDOMAIN VPS     $NC"
+echo -e "$BBlue                          NF SETUP SUBDOMAIN VPS     $NC"
 echo -e "$BYellow-------------------------------------------------------------------$NC"
 echo -e "$BYellow Pastikan Subdomain sudah pointing dengan ip vps di cloudflare $NC"
 echo -e "$BYellow Make sure the Subdomain is pointing with the ip vps on cloudflare $NC"
@@ -150,14 +150,14 @@ clear
     
 #install ssh ovpn
 echo -e "\e[33m-----------------------------------\033[0m"
-echo -e "$BGreen      Install NT SSH Websocket           $NC"
+echo -e "$BGreen      Install NF SSH Websocket           $NC"
 echo -e "\e[33m-----------------------------------\033[0m"
 sleep 0.5
 clear
 wget https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 #Instal Xray
 echo -e "\e[33m-----------------------------------\033[0m"
-echo -e "$BGreen          Install NT XRAY              $NC"
+echo -e "$BGreen          Install NF XRAY              $NC"
 echo -e "\e[33m-----------------------------------\033[0m"
 sleep 0.5
 clear
@@ -249,7 +249,7 @@ echo "   - Trojan gRPC              : 443" | tee -a log-install.txt
 echo "   - Shadowsocks gRPC         : 443" | tee -a log-install.txt
 echo ""
 echo "=============================Contact==============================" | tee -a log-install.txt
-echo "---------------------------t.me/networktweakerop-----------------------------" | tee -a log-install.txt
+echo "---------------------------t.me/buttacuore-----------------------------" | tee -a log-install.txt
 echo "==================================================================" | tee -a log-install.txt
 echo -e ""
 echo ""

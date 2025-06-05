@@ -52,7 +52,7 @@ service cron restart
 clear
 echo ""
 echo "==============================="
-echo " NT XRAY Vmess/Vless gRPC Account Renewed by NT  "
+echo " NF XRAY Vmess/Vless gRPC Account Renewed by NF  "
 echo "==============================="
 echo "Username  : $user"
 echo "Expired   : $exp4"

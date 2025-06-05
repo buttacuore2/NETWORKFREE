@@ -1,5 +1,5 @@
 #!/bin/bash
-# NETWORK TWEAKER 
+# NETWORK FREE 
 BRed='\e[1;31m'
 BGreen='\e[1;32m'
 BYellow='\e[1;33m'
@@ -19,7 +19,7 @@ chmod +x /usr/local/bin/reboot_otomatis
 fi
 clear
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m                NT AUTO-REBOOT MENU                 \e[0m"
+echo -e "\e[1;34m                NF AUTO-REBOOT MENU                 \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e ""
 echo -e "\e[1;35m 1 \e[0m Set Auto-Reboot Every 1 Hour"
@@ -64,7 +64,7 @@ elif test $x -eq 8; then
 if [ ! -e /root/log-reboot.txt ]; then
 	clear
     echo -e "\e[1;33m -------------------------------------------------\e[0m"
-    echo -e "\e[1;34m                  NT AUTO-REBOOT LOG                 \e[0m"
+    echo -e "\e[1;34m                  NF AUTO-REBOOT LOG                 \e[0m"
     echo -e "\e[1;33m -------------------------------------------------\e[0m"
     echo -e ""
     echo " No reboot activity found \e[0m"
@@ -76,7 +76,7 @@ if [ ! -e /root/log-reboot.txt ]; then
 	else
 	clear
     echo -e "\e[1;33m -------------------------------------------------\e[0m"
-    echo -e "\e[1;34m                  NT AUTO-REBOOT LOG         	   \e[0m"
+    echo -e "\e[1;34m                  NF AUTO-REBOOT LOG         	   \e[0m"
     echo -e "\e[1;33m -------------------------------------------------\e[0m"
     echo -e ""    
 	echo ' LOG REBOOT \e[0m'
@@ -90,11 +90,11 @@ fi
 elif test $x -eq 9; then
 clear
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m                 NT AUTO-REBOOT LOG                 \e[0m"
+echo -e "\e[1;34m                 NF AUTO-REBOOT LOG                 \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e ""  
 echo "" > /root/log-reboot.txt
-echo " NT Auto Reboot Log successfully deleted! \e[0m"
+echo " NF Auto Reboot Log successfully deleted! \e[0m"
 echo -e ""
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo ""
@@ -108,6 +108,6 @@ clear
 echo ""
 echo "EREN YEAGER"
 echo ""
-read -n 1 -s -r -p "Press any key to go back to NT menu"
+read -n 1 -s -r -p "Press any key to go back to NF menu"
 auto-reboot 
 fi

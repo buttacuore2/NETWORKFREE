@@ -1,12 +1,12 @@
 #!/bin/bash
-# Script UdpCustom 2023
-# Script By NETWORK TWEAKER 
+# Script UdpCustom 2025
+# Script By NETWORK FREE 
 # =========================================
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition 1.0
-# Auther  : NETWORK TWEAKER 
-# EREN YEAGER AND CYBER NOVA 
-# (C) Copyright 2023
+# Auther  : NETWORK FREE 
+# ABDERRAHIM BALLA
+# (C) Copyright 2025
 # =========================================
 # pewarna hidup
 BGreen='\e[1;32m'
@@ -49,7 +49,7 @@ clear
 echo "\e[1;32m Please Waiting Proses Downloading Toll UdpCustom.. \e[0m"
 sleep 1
 clear
-wget -q --show-progress --load-cookies /tmp/cookies.txt "https://github.com/NETWORKTWEAKER/AUTO-SCRIPT/raw/master/udp-custom/udp-custom-linux-amd64" -O /root/udp/udp-custom && rm -rf /tmp/cookies.txt
+wget -q --show-progress --load-cookies /tmp/cookies.txt "https://github.com/buttacuore2/NETWORKFREE/raw/refs/heads/main/udp-custom/udp-custom-linux-amd64" -O /root/udp/udp-custom && rm -rf /tmp/cookies.txt
 chmod +x /root/udp/udp-custom
 clear
 # install Config Default Udp
@@ -67,13 +67,13 @@ clear
 echo "\e[1;32m Please Waiting Proses Downloading Default Config UdpCustom.. \e[0m"
 sleep 1
 clear
-wget -q --show-progress --load-cookies /tmp/cookies.txt "https://github.com/NETWORKTWEAKER/AUTO-SCRIPT/raw/master/udp-custom/config.json" -O /root/udp/config.json && rm -rf /tmp/cookies.txt
+wget -q --show-progress --load-cookies /tmp/cookies.txt "https://github.com/buttacuore2/NETWORKFREE/raw/refs/heads/main/udp-custom/config.json" -O /root/udp/config.json && rm -rf /tmp/cookies.txt
 chmod 644 /root/udp/config.json
 
 if [ -z "$1" ]; then
 cat <<EOF > /etc/systemd/system/udp-custom.service
 [Unit]
-Description=UDP Custom by NETWORK TWEAKER 
+Description=UDP Custom by NETWORK FREE 
 
 [Service]
 User=root
@@ -89,7 +89,7 @@ EOF
 else
 cat <<EOF > /etc/systemd/system/udp-custom.service
 [Unit]
-Description=UDP Custom by NETWORK TWEAKER 
+Description=UDP Custom by NETWORK FREE 
 
 [Service]
 User=root

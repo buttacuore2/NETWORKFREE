@@ -2,9 +2,8 @@
 # =========================================
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition 1.0
-# Auther  : NETWORK TWEAKER 
-# (C) Copyright 2023
-# fn teri maa ka bhosda 
+# Auther  : NETWORK FREE 
+# (C) Copyright 2025
 # =========================================
 clear
 Green_font_prefix="\033[32m" && Red_font_prefix="\033[31m" && Green_background_prefix="\033[42;37m" && Red_background_prefix="\033[41;37m" && Font_color_suffix="\033[0m"
@@ -13,12 +12,12 @@ Error="${Red_font_prefix}[Not Installed]${Font_color_suffix}"
 cek=$(netstat -ntlp | grep 10000 | awk '{print $7}' | cut -d'/' -f2)
 function install () {
 IP=$(wget -qO- ifconfig.co);
-echo " Adding NT Webmin repository"
+echo " Adding NFWebmin repository"
 sh -c 'echo "deb http://download.webmin.com/download/repository sarge contrib" > /etc/apt/sources.list.d/webmin.list'
 apt install gnupg gnupg1 gnupg2 -y
 wget http://www.webmin.com/jcameron-key.asc
 apt-key add jcameron-key.asc
-echo " Start Install NT Webmin"
+echo " Start Install NFWebmin"
 clear
 sleep 0.5
 apt update > /dev/null 2>&1
@@ -28,31 +27,31 @@ sed -i 's/ssl=1/ssl=0/g' /etc/webmin/miniserv.conf
 rm -f /root/jcameron-key.asc
 clear
 echo ""
-echo " Done Install NT Webmin"
+echo " Done Install NFWebmin"
 echo " $IP:10000"
 echo " Username : root"
 echo " Password : Your Paasword VPS"
 }
 function restart () {
-echo " Restarting NT Webmin"
+echo " Restarting NFWebmin"
 sleep 0.5
 service webmin restart > /dev/null 2>&1
-echo " Start Uninstall NT Webmin"
+echo " Start Uninstall NFWebmin"
 clear
 echo ""
-echo " Done Restart NT Webmin"
+echo " Done Restart NFWebmin"
 }
 function uninstall () {
-echo " Removing NT Webmin depository"
+echo " Removing NFWebmin depository"
 rm -f /etc/apt/sources.list.d/webmin.list
 apt update > /dev/null 2>&1
-echo " Start Uninstall NT Webmin"
+echo " Start Uninstall NFWebmin"
 clear
 sleep 0.5
 apt autoremove --purge webmin -y > /dev/null 2>&1
 clear
 echo ""
-echo " Done Uninstall NT Webmin"
+echo " Done Uninstall NFWebmin"
 }
 if [[ "$cek" = "perl" ]]; then
 sts="${Info}"
@@ -61,7 +60,7 @@ sts="${Error}"
 fi
 clear
 echo -e " =============================="
-echo -e "           Webmin Menu NT        "
+echo -e "           Webmin Menu NF       "
 echo -e " =============================="
 echo -e " Status $sts"
 echo -e "  1. Install Webmin"

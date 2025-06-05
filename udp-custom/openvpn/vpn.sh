@@ -2,8 +2,8 @@
 # =========================================
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition 1.0
-# Auther  : NETWORK TWEAKER 
-# (C) Copyright 2023
+# Auther  : NETWORK FREE 
+# (C) Copyright 2025
 # =========================================
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive

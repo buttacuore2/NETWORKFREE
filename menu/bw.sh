@@ -1,5 +1,5 @@
 #!/bin/bash
-# NETWORK TWEAKER 
+# NETWORK FREE 
 BGreen='\e[1;32m'
 BYellow='\e[1;33m'
 BBlue='\e[1;34m'
@@ -9,7 +9,7 @@ MYIP=$(wget -qO- ipv4.icanhazip.com);
 echo "Checking VPS"
 clear
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m                NT BANDWIDTH MONITOR                 \e[0m"
+echo -e "\e[1;34m                NF BANDWIDTH MONITOR                 \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e "" 
 echo -e "\e[1;35m 1 \e[0m View Total Remaining Bandwidth"
@@ -34,7 +34,7 @@ case $opt in
 1)
 clear 
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m          NT TOTAL REMAINING SERVER BANDWIDTH         \e[0m"
+echo -e "\e[1;34m          NF TOTAL REMAINING SERVER BANDWIDTH         \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e ""
 
@@ -50,7 +50,7 @@ bw
 2)
 clear 
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m           NT TOTAL BANDWIDTH USAGE EVERY 5 MINUTES         \e[0m"
+echo -e "\e[1;34m           NF TOTAL BANDWIDTH USAGE EVERY 5 MINUTES         \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e ""
 
@@ -66,7 +66,7 @@ bw
 3)
 clear 
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m             NT TOTAL BANDWIDTH USAGE EVERY HOUR         \e[0m"
+echo -e "\e[1;34m             NF TOTAL BANDWIDTH USAGE EVERY HOUR         \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e ""
 
@@ -82,7 +82,7 @@ bw
 4)
 clear 
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m           NT TOTAL BANDWIDTH USAGE EVERY DAY            \e[0m"
+echo -e "\e[1;34m           NF TOTAL BANDWIDTH USAGE EVERY DAY            \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e ""
 
@@ -98,7 +98,7 @@ bw
 5)
 clear 
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m           NT TOTAL BANDWIDTH USAGE EVERY MONTH •         \e[0m"
+echo -e "\e[1;34m           NF TOTAL BANDWIDTH USAGE EVERY MONTH •         \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e ""
 
@@ -114,7 +114,7 @@ bw
 6)
 clear 
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m           NT TOTAL BANDWIDTH USAGE EVERY YEAR           \e[0m"
+echo -e "\e[1;34m           NF TOTAL BANDWIDTH USAGE EVERY YEAR           \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e ""
 
@@ -130,7 +130,7 @@ bw
 7)
 clear 
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m            NT HIGHEST TOTAL BANDWIDTH USAGE            \e[0m"
+echo -e "\e[1;34m            NF HIGHEST TOTAL BANDWIDTH USAGE            \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e ""
 
@@ -146,7 +146,7 @@ bw
 8)
 clear 
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m          NT HOURLY USAGE STATISTICS          \e[0m"
+echo -e "\e[1;34m          NF HOURLY USAGE STATISTICS          \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e ""
 
@@ -162,7 +162,7 @@ bw
 9)
 clear 
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m              NT LIVE BANDWIDTH USAGE             \e[0m"
+echo -e "\e[1;34m              NF LIVE BANDWIDTH USAGE             \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e "\e[1;34m Press [ Ctrl+C ] To-Exit \e[0m"
 echo -e ""
@@ -179,7 +179,7 @@ bw
 10)
 clear 
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
-echo -e "\e[1;34m          NT LIVE TRAFFIC BANDWIDTH USAGE        \e[0m"
+echo -e "\e[1;34m          NF LIVE TRAFFIC BANDWIDTH USAGE        \e[0m"
 echo -e "\e[1;33m -------------------------------------------------\e[0m"
 echo -e ""
 
