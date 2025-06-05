@@ -58,7 +58,7 @@ show_menu() {
     show_cpu_ram_info
 
     echo -e "\e[1;34m                      NF MENU                       \e[0m"
-    echo -e "\e[1;33m -------------------------------------------------\e[0m"
+    echo -e "\e[1;33m ════════════════════════════════════════════════════════\e[0m"
     echo -e ""
     echo -e ""
     echo -e "\e[1;36m 1 \e[0m: Menu SSH                 \e[1;36m 5 \e[0m: Menu Setting"
