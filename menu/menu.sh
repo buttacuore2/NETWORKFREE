@@ -74,7 +74,7 @@ show_menu() {
     echo -e "\e[1;32m Client Name \e[0m: $Name"
     echo -e "\e[1;32m Expired     \e[0m: $Exp2"
     echo -e "\e[1;32m SCRIPT BY   \e[0m: NETWORK FREE"
-    echo -e "\e[1;32m MADE BY     \e[0m: CYBER NOVA AND EREN YEAGER"
+    echo -e "\e[1;32m MADE BY     \e[0m: BUTTACUORE +++++ BDERRAHIM BALLA"
     echo -e "\e[1;33m -------------------------------------------------\e[0m"
     echo -e ""
     read -p " Select menu :  " opt
