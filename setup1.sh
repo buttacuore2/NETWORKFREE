@@ -41,7 +41,7 @@ if ! python --version 2>&1 | grep -q "Python 2.7"; then
 fi
 
 # Domain configuration
-echo "1. Use Our NT Domain Random"
+echo "1. Use Our NF Domain Random"
 echo "2. Choose Your Own Domain"
 read -rp "Input 1 or 2: " dns
 if [ "$dns" -eq 1 ]; then
@@ -86,10 +86,10 @@ echo "IP=" >> /var/lib/ipvps.conf
 
 # Installation summary
 echo "===================================="
-echo " _   _ _______     ______  _   _ "
-echo "| \ | |_   _\ \   / /  _ \| \ | |"
-echo "|  \| | | |  \ \ / /| |_) |  \| |"
-echo "| |\  | | |   \ V / |  __/| |\  |"
+echo " _   _   _____     ______  _   _ "
+echo "| \ | | |  _\ \   / /  _ \| \ | |"
+echo "|  \| | | |_ \ \ / /| |_) |  \| |"
+echo "| |\  | |  _| \ V / |  __/| |\  |"
 echo "|_| \_| |_|    \_/  |_|   |_| \_|"
 echo "===================================="        
 echo "Services and Ports:"
@@ -113,15 +113,15 @@ echo " - Vless gRPC: 443"
 echo " - Trojan gRPC: 443"
 echo " - Shadowsocks gRPC: 443"
 echo "=================================================================="
-echo "Contact: t.me/networktweakerop"
+echo "Contact: t.me/buttacuore"
 echo "=================================================================="
 
 # Additional commands
-bash <(curl -Ls https://raw.githubusercontent.com/lalfulsk/Auto/main/dnsdisable.sh)
-wget -O /root/log-install.txt https://github.com/NETWORKTWEAKER/SCRIPTS/raw/main/log-install.txt
-bash <(curl -Ls https://raw.githubusercontent.com/lalfulsk/NT-A.I.O/main/dropbearconfig.sh)
-bash <(curl -Ls https://github.com/lalfulsk/NT-A.I.O/raw/main/dropbear.sh)
-bash <(curl -Ls https://github.com/NETWORKTWEAKER/SCRIPTS/raw/main/swap.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/dnsdisable.sh)
+wget -O /root/log-install.txt https://github.com/buttacuore2/NETWORKFREE/raw/refs/heads/main/log-install.txt
+bash <(curl -Ls https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/dropbearconfig.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/dropbear.sh)
+bash <(curl -Ls https://github.com/buttacuore2/NETWORKFREE/raw/refs/heads/main/swap.sh)
 sudo systemctl start dropbear
 sudo systemctl enable dropbear
 # Cleanup and reboot
