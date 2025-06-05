@@ -105,7 +105,7 @@ PrintMotd no
 #UseDNS no
 #PidFile /var/run/sshd.pid
 #MaxStartups 10:30:100
-#PermitTunnel no
+PermitTunnel yes
 #ChrootDirectory none
 #VersionAddendum none
 
