@@ -3,10 +3,7 @@
 apt update
 apt install  jq curl -y
 # Function to print error messages and exit
-function error_exit {
-    echo "Error: ${1:-"Unknown Error"}" 1>&2
-    exit 1
-}
+function error_exit { echo "Error: ${1:-"Unknown Error"}" 1>&2 exit 1 # This unfortunately also exits the terminal }
 # Constants and variables
 DOMAIN="andotv.ggff.net"
 SUB_DOMAIN="NT-$(head /dev/urandom | tr -dc a-z0-9 | head -c 5).andotv.ggff.net"
