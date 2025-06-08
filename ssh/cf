@@ -1,15 +1,12 @@
 #!/bin/bash
-
 # Install necessary packages if not already installed
 apt update
 apt install -y jq curl
-
 # Function to print error messages and exit
 function error_exit {
     echo "Error: $1" >&2
     exit 1
 }
-
 # Constants and variables
 DOMAIN="andotv.ggff.net"
 SUB_DOMAIN="NT-$(head /dev/urandom | tr -dc a-z0-9 | head -c 5).andotv.ggff.net"
