@@ -1,7 +1,7 @@
 #!/bin/bash
 # Install necessary packages if not already installed
 apt update
-apt install  jq curl -y
+apt install -y jq curl 
 # Function to print error messages and exit
 function error_exit { echo "Error: ${1:-"Unknown Error"}" 1>&2 exit 1 # This unfortunately also exits the terminal }
 # Constants and variables
