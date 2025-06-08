@@ -13,8 +13,8 @@ function error_exit {
 # Constants and variables
 DOMAIN="andotv.ggff.net"
 SUB_DOMAIN="NT-$(head /dev/urandom | tr -dc a-z0-9 | head -c 5).andotv.ggff.net"
-CF_ID="foodv776@gmail.com"
-CF_KEY="947c20c859273e69293f6550945e1f7d1dab1"  # Update with your API token
+CF_ID="bilalaballa2018@gmail.com"
+CF_KEY="dwBIJbunVoeQ_lzgUs0VPUINO2pxFjxETij4kSb3"  # Update with your API token
 IP=$(curl -s ipinfo.io/ip)
 API_URL="https://api.cloudflare.com/client/v4"
 ZONE_ID="a3e6bf07fda3ed8e56dde17376255188"  # Update with your zone ID
