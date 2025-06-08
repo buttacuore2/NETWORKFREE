@@ -14,7 +14,8 @@ API_URL="https://api.cloudflare.com/client/v4"
 ZONE_ID="a3e6bf07fda3ed8e56dde17376255188"  # Update with your zone ID
 
 # Function to update DNS record in Cloudflare
-function update_dns_record {
+function update_dns_record
+{
     local zone_id="$1"
     local record_id="$2"
     local response=$(curl -sX PUT "${API_URL}/zones/${zone_id}/dns_records/${record_id}" \
