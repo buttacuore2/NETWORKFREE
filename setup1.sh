@@ -56,7 +56,6 @@ elif [ "$dns" -eq 2 ]; then
     echo "$dom" > /etc/xray/scdomain
     echo "$dom" > /etc/xray/domain
     echo "$dom" > /etc/v2ray/domain
-    echo "$dom" > /etc/v2ray/scdomain
     echo "$dom" > /root/domain
 else
     echo "Not Found Argument"
@@ -77,7 +76,7 @@ dos2unix insshws.sh
 bash insshws.sh
 
 # Setup environment for auto-reboot
-ln -fs /usr/share/zoneinfo/Africa/Casablanca /etc/localtime
+ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
 sysctl -w net.ipv6.conf.all.disable_ipv6=1
 sysctl -w net.ipv6.conf.default.disable_ipv6=1
 
