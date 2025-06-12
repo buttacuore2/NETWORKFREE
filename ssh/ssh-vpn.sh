@@ -260,7 +260,8 @@ openssl req -new -x509 -key key.pem -out cert.pem -days 1095 \
 cat key.pem cert.pem >> /etc/stunnel/stunnel.pem
 
 # konfigurasi stunnel4
-sed -i 's/ENABLED=0/ENABLED=1/g' /etc/default/stunnel4
+sed -i '$ i\ENABLED=1' /etc/default/stunnel4
+#sed -i 's/ENABLED=0/ENABLED=1/g' /etc/default/stunnel4
 /lib/systemd/systemd-sysv-install enable stunnel4
 systemctl start stunnel4
 /etc/init.d/stunnel4 restart
