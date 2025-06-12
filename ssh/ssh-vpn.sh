@@ -281,13 +281,13 @@ fi
 clear
 echo; echo 'Installing DOS-Deflate 0.6'; echo
 echo; echo -n 'Downloading source files...'
-wget -q -O /usr/local/ddos/ddos.conf https://raw.githubusercontent.com/ilyaevseev/antiddos-script/refs/heads/master/ddos.conf
+wget -q -O /usr/local/ddos/ddos.conf https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/antiddos/ddos.conf
 echo -n '.'
-wget -q -O /usr/local/ddos/LICENSE https://raw.githubusercontent.com/ilyaevseev/antiddos-script/refs/heads/master/LICENSE
+wget -q -O /usr/local/ddos/LICENSE https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/antiddos/LICENSE
 echo -n '.'
-wget -q -O /usr/local/ddos/ignore.ip.list https://raw.githubusercontent.com/ilyaevseev/antiddos-script/refs/heads/master/ignore.ip.list
+wget -q -O /usr/local/ddos/ignore.ip.list https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/antiddos/ignore.ip.list
 echo -n '.'
-wget -q -O /usr/local/ddos/ddos.sh https://raw.githubusercontent.com/ilyaevseev/antiddos-script/refs/heads/master/ddos.sh
+wget -q -O /usr/local/ddos/ddos.sh https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/antiddos/ddos.sh
 chmod 0755 /usr/local/ddos/ddos.sh
 cp -s /usr/local/ddos/ddos.sh /usr/local/sbin/ddos
 echo '...done'
