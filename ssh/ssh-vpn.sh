@@ -16,8 +16,8 @@ ver=$VERSION_ID
 
 #detail nama perusahaan
 country=ID
-state=Indonesia
-locality=Jakarta
+state=Morocco
+locality=Casablanca
 organization=none
 organizationalunit=none
 commonname=none
