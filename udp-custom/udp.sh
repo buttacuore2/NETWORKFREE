@@ -28,7 +28,8 @@ chmod +x log-install.txt
 wget -q -O /usr/bin/usernew https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/udp-custom/ssh/usernew.sh
 wget -q -O /usr/bin/trial https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/udp-custom/ssh/trial.sh
 echo "\e[1;32m Proses Download Script Slowdns.. \e[0m"
-wget https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/udp-custom/slowdns/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
+wget https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/udp-custom/slowdns/slowdns.sh && chmod +x slowdns.sh
+vpn.sh ./slowdns.sh
 sleep 1
 echo "\e[1;32m Proses Download Script OpenVPN.. \e[0m"
 wget https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/udp-custom/openvpn/openvpn.sh && chmod +x openvpn.sh && ./openvpn.sh
