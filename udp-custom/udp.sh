@@ -12,6 +12,7 @@
 BGreen='\e[1;32m'
 NC='\e[0m'
 cd
+apt install -y dos2unix
 rm -rf slowdns.sh
 rm -rf udp.sh
 rm -rf vpn.sh
