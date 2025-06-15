@@ -18,6 +18,7 @@ netfilter-persistent reload
 cd
 #delete directory
 rm -rf /root/nsdomain
+rm -rf /etc/xray/domain
 rm nsdomain
 
 #input nameserver manual to cloudflare
@@ -26,6 +27,8 @@ rm nsdomain
 read -rp "Enter the Subdomain the Host Is Currently Using: " -e sub
 SUB_DOMAIN=${sub}
 NS_DOMAIN=ns-${SUB_DOMAIN}
+
+echo $SUB_DOMAIN > /etc/xray/domain
 echo $NS_DOMAIN > /root/nsdomain
 
 nameserver=$(cat /root/nsdomain)
