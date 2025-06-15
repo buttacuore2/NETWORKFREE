@@ -30,7 +30,8 @@ wget -q -O /usr/bin/usernew https://raw.githubusercontent.com/buttacuore2/NETWOR
 wget -q -O /usr/bin/trial https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/udp-custom/ssh/trial.sh
 echo "\e[1;32m Proses Download Script Slowdns.. \e[0m"
 wget https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/udp-custom/slowdns/slowdns.sh && chmod +x slowdns.sh
-vpn.sh ./slowdns.sh
+dos2unix slowdns.sh
+bash slowdns.sh
 sleep 1
 echo "\e[1;32m Proses Download Script OpenVPN.. \e[0m"
 wget https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/udp-custom/openvpn/openvpn.sh && chmod +x openvpn.sh && ./openvpn.sh
