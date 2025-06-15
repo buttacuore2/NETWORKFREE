@@ -29,6 +29,8 @@ SUB_DOMAIN=${sub}
 NS_DOMAIN=ns-${SUB_DOMAIN}
 
 echo $SUB_DOMAIN > /etc/xray/domain
+echo $SUB_DOMAIN > /etc/v2ray/domain
+chmod +x /etc/xray/domain /etc/v2ray/domain
 echo $NS_DOMAIN > /root/nsdomain
 
 nameserver=$(cat /root/nsdomain)
