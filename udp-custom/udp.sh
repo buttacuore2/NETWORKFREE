@@ -22,6 +22,9 @@ rm -rf /usr/bin/trial
 rm -rf /root/domain
 echo "\e[1;32m Update Menu.. \e[0m"
 sleep 1
+cd
+wget -q https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/log-install.txt
+chmod +x log-install.txt
 wget -q -O /usr/bin/usernew https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/udp-custom/ssh/usernew.sh
 wget -q -O /usr/bin/trial https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/udp-custom/ssh/trial.sh
 echo "\e[1;32m Proses Download Script Slowdns.. \e[0m"
