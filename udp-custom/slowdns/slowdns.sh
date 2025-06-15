@@ -9,6 +9,7 @@
 BGreen='\e[1;32m'
 NC='\e[0m'
 #setting IPtables
+apt install netfilter-persistent
 iptables -I INPUT -p udp --dport 5300 -j ACCEPT
 iptables -t nat -I PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 5300
 netfilter-persistent save
