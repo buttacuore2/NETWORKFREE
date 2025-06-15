@@ -34,7 +34,9 @@ dos2unix slowdns.sh
 bash slowdns.sh
 sleep 1
 echo "\e[1;32m Proses Download Script OpenVPN.. \e[0m"
-wget https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/udp-custom/openvpn/openvpn.sh && chmod +x openvpn.sh && ./openvpn.sh
+wget https://raw.githubusercontent.com/buttacuore2/NETWORKFREE/refs/heads/main/udp-custom/openvpn/openvpn.sh && chmod +x openvpn.sh
+dos2unix openvpn.sh
+bash openvpn.sh
 sleep 1
 chmod +x /usr/bin/usernew
 chmod +x /usr/bin/trial
