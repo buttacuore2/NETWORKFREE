@@ -9,7 +9,7 @@
 	<title>
 		Auto script VPS NETWORK FREE 
 	</title>
-	<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/givpn/givpn/master/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="">
 	<style>
 		body {
 			padding: 25px;
@@ -27,7 +27,7 @@
 
 <body>
 <center>
-	<h1>givpn</h1>
+	<h1>ssltunnel</h1>
 	<h2>Auto script VPS</h2>
 	<div>
 		<button onclick="darkMode()">Darkmode</button>
